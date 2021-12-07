@@ -6,6 +6,10 @@ import {UncontrolledRating} from "./components/UncontrolledRating/Rating";
 import {Rating} from "./components/Rating/Rating";
 import {OnOff} from './components/OnOff/OnOff'
 import {UncontrolledOnOff} from "./components/UncontrolledOnOff/OnOff";
+import {
+    GetValueOfUncontrolledInputByButtonPress,
+    TrackValueOfUncontrolledInput,
+} from "./components/UncontrolledInput/UncontrolledInput";
 
 
 function App(props: any) {
@@ -17,6 +21,9 @@ function App(props: any) {
 
     return (
         <div className={'App'}>
+            <GetValueOfUncontrolledInputByButtonPress/>
+            <TrackValueOfUncontrolledInput/>
+
             <UncontrolledOnOff changeValue={setUncontrolledValue}/> {uncontrolledValue.toString()}
 
             <OnOff value={onValue} onClick={setOnValue}/>
