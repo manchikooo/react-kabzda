@@ -10,6 +10,7 @@ import {
     GetValueOfUncontrolledInputByButtonPress,
     TrackValueOfUncontrolledInput,
 } from "./components/UncontrolledInput/UncontrolledInput";
+import {ControlledCheckbox, ControlledInput, ControlledSelect} from "./components/ControlledInput/ControlledInput";
 
 
 function App(props: any) {
@@ -21,6 +22,10 @@ function App(props: any) {
 
     return (
         <div className={'App'}>
+            <ControlledInput/>
+            <ControlledCheckbox/>
+            <ControlledSelect/>
+            <hr/>
             <GetValueOfUncontrolledInputByButtonPress/>
             <TrackValueOfUncontrolledInput/>
 

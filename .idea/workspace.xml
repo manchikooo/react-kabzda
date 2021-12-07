@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce468f2-73de-4ef7-b25e-af4ca50657da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledInput/UncontrolledInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ControlledInput/ControlledInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +29,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/../JS-TS/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Input" />
       <recent name="$PROJECT_DIR$/../JS-TS/src/09-mutability" />
     </key>
@@ -102,7 +104,8 @@
       <updated>1638783666981</updated>
       <workItem from="1638783670191" duration="6048000" />
       <workItem from="1638811154023" duration="3725000" />
-      <workItem from="1638817515899" duration="2396000" />
+      <workItem from="1638817515899" duration="6311000" />
+      <workItem from="1638872655656" duration="2376000" />
     </task>
     <servers />
   </component>
