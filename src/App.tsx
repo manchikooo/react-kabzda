@@ -1,16 +1,10 @@
 import React, {useState} from 'react';
 import './App.css';
 import {Accordion} from "./components/Accordion/Accordion";
-import {UncontrolledAccordion} from "./components/UncontrolledAccordion/Accordion";
-import {UncontrolledRating} from "./components/UncontrolledRating/Rating";
 import {Rating} from "./components/Rating/Rating";
 import {OnOff} from './components/OnOff/OnOff'
-import {UncontrolledOnOff} from "./components/UncontrolledOnOff/OnOff";
-import {
-    GetValueOfUncontrolledInputByButtonPress,
-    TrackValueOfUncontrolledInput,
-} from "./components/UncontrolledInput/UncontrolledInput";
 import {ControlledCheckbox, ControlledInput, ControlledSelect} from "./components/ControlledInput/ControlledInput";
+import {Select} from "./Select/Select";
 
 
 function App(props: any) {
@@ -20,27 +14,38 @@ function App(props: any) {
     let [onValue, setOnValue] = useState(true)
     let [uncontrolledValue, setUncontrolledValue] = useState(true)
 
+    let [selectValue, setSelectValue] = useState('1')
+
     return (
         <div className={'App'}>
             <ControlledInput/>
             <ControlledCheckbox/>
             <ControlledSelect/>
-            <hr/>
-            <GetValueOfUncontrolledInputByButtonPress/>
-            <TrackValueOfUncontrolledInput/>
-
-            <UncontrolledOnOff changeValue={setUncontrolledValue}/> {uncontrolledValue.toString()}
 
             <OnOff value={onValue} onClick={setOnValue}/>
 
-            <UncontrolledAccordion titleValue={'Menu'}/>
-            <UncontrolledAccordion titleValue={'Users'}/>
-            <UncontrolledRating/>
             <Rating value={ratingValue}
                     onClick={setRatingValue}/>
             <Accordion titleValue={'Menu'}
                        collapsed={accordionCollapsed}
-                       onClick={() => setAccordionCollapsed(!accordionCollapsed)}/>
+                       onChange={() => setAccordionCollapsed(!accordionCollapsed)}
+                       items={[
+                           {title: 'Dimych', value: 1},
+                           {title: 'Vlad', value: 2},
+                           {title: 'Artem', value: 3}]}
+                       onClick={(id) => alert(`User with ${id}`)}
+            />
+
+                <Select
+                    // value={1}
+                    setSelectValue={setSelectValue}
+                    selectValue={selectValue}
+                    items={[
+                        {title: 'Dimych', value: 1},
+                        {title: 'Vlad', value: 2},
+                        {title: 'Artem', value: 3}]}
+                />
+
 
             {/*<Accordion titleValue={'Users'} collapsed={false}/>*/}
             {/*<Rating value={1}/>*/}

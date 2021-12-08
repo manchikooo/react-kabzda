@@ -1,4 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .App {
-  margin-top: 150px;
-  text-align: center;
+    margin-top: auto;
+    text-align: center;
+}
+
+.selectBlock {
+    border: 1px black solid;
+    border-radius: 15px;;
+    padding: 5px;
+    max-width: 100px;
+    margin: 0 auto;
 }
