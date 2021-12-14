@@ -4,7 +4,7 @@ import {Accordion} from "./components/Accordion/Accordion";
 import {Rating} from "./components/Rating/Rating";
 import {OnOff} from './components/OnOff/OnOff'
 import {ControlledCheckbox, ControlledInput, ControlledSelect} from "./components/ControlledInput/ControlledInput";
-import {Select} from "./Select/Select";
+import {Select} from "./components/Select/Select";
 
 
 function App(props: any) {
@@ -14,7 +14,7 @@ function App(props: any) {
     let [onValue, setOnValue] = useState(true)
     let [uncontrolledValue, setUncontrolledValue] = useState(true)
 
-    let [selectValue, setSelectValue] = useState('1')
+    let [selectValue, setSelectValue] = useState('Add user')
 
     return (
         <div className={'App'}>
