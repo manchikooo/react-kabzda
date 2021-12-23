@@ -1,6 +1,3 @@
-import {disconnect} from "cluster";
-import {useState} from "react";
-
 type PropsType = {
     value: boolean
     onClick: (value: boolean) => void

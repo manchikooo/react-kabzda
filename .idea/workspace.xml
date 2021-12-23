@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0ce468f2-73de-4ef7-b25e-af4ca50657da" name="Changes" comment="select from Dimych">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SelectWithDimych/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReactMemo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +123,9 @@
       <workItem from="1639126678815" duration="11000" />
       <workItem from="1639502018720" duration="82000" />
       <workItem from="1639917665861" duration="1536000" />
-      <workItem from="1639920106335" duration="3249000" />
+      <workItem from="1639920106335" duration="4501000" />
+      <workItem from="1640004695471" duration="41000" />
+      <workItem from="1640298312204" duration="3094000" />
     </task>
     <task id="LOCAL-00001" summary="select from Dimych">
       <created>1639502094264</created>

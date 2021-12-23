@@ -5,6 +5,7 @@ import {Rating} from "./components/Rating/Rating";
 import {OnOff} from './components/OnOff/OnOff'
 import {ControlledCheckbox, ControlledInput, ControlledSelect} from "./components/ControlledInput/ControlledInput";
 import {Select} from "./components/Select/Select";
+import {Example1} from "./components/ReactMemo";
 
 
 function App(props: any) {
@@ -18,6 +19,7 @@ function App(props: any) {
 
     return (
         <div className={'App'}>
+            <Example1/>
             <ControlledInput/>
             <ControlledCheckbox/>
             <ControlledSelect/>
