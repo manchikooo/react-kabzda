@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useMemo, useState} from "react";
 
 type counterType = { count: number }
 
@@ -9,7 +9,7 @@ const NewMessagesCounterSecret = (props: counterType) => {
 
 type usersType = { users: Array<string> }
 const UsersSecret = (props: usersType) => {
-    console.log('AAA')
+    console.log('Users')
     return <div>{props.users.map((u, i) => <div key={i}>{u}</div>)}</div>
 }
 
@@ -18,19 +18,27 @@ const NewMessagesCounter = React.memo(NewMessagesCounterSecret)
 
 export const Example1 = () => {
     const [counter, setCounter] = useState(0)
-    const [users, setUsers] = useState(['Vlad', 'Maks', 'Dimych'])
+    const [users, setUsers] = useState(['1Vlad', '1Maks', 'Dimych'])
 
     const addUser = () => {
-        const newUsers = [...users, 'Sveta ' + new Date().getTime()]
+        const newUsers = [...users, '1Sveta ' + new Date().getTime()]
         setUsers(newUsers)
     }
+
+    let filteredUsers = useMemo(() => {
+        let usersCopy = [...users]
+        return usersCopy.filter(u => u[0] === '1')
+    }, [users])
+    // let filter = () => {
+    //    return  users.filter(u => u === 'Maks')
+    // }
 
     return (
         <>
             <button onClick={() => setCounter(counter + 1)}>+</button>
             <button onClick={addUser}>add user</button>
             <NewMessagesCounter count={counter}/>
-            <Users users={users}/>
+            <Users users={filteredUsers}/>
         </>
     )
 }
