@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce468f2-73de-4ef7-b25e-af4ca50657da" name="Changes" comment="select from Dimych">
+      <change afterPath="$PROJECT_DIR$/src/components/UseEffect/UseEffectExample.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UseState/UseState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseState/UseState.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UseState/UseState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseState/UseStateExample.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +132,8 @@
       <workItem from="1641545136427" duration="5480000" />
       <workItem from="1642150228858" duration="675000" />
       <workItem from="1642233211412" duration="3955000" />
-      <workItem from="1642237612488" duration="2206000" />
+      <workItem from="1642237612488" duration="2576000" />
+      <workItem from="1642250048366" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="select from Dimych">
       <created>1639502094264</created>

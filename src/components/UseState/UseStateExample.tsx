@@ -5,8 +5,8 @@ let generateData = () => {
     return 1
 }
 
-const UseState = () => {
-    console.log('UseState')
+const UseStateExample = () => {
+    console.log('UseStateExample')
 
     // const initValue = useMemo(generateData, [])
 
@@ -27,4 +27,4 @@ const UseState = () => {
     );
 };
 
-export default UseState;
+export default UseStateExample;

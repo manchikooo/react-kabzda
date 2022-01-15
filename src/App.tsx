@@ -4,7 +4,8 @@ import {SCountry} from "./components/Select/SelectCountry";
 import {SelectLetter} from "./components/Select/SelectLetter";
 import {Example1} from "./components/ReactMemo";
 import {ExampleUseMemo, LikeUseCallback} from "./components/UseMemoUseCallback";
-import UseState from "./components/UseState/UseState";
+import UseStateExample from "./components/UseState/UseStateExample";
+import {UseEffectExample} from "./components/UseEffect/UseEffectExample";
 
 
 function App(props: any) {
@@ -44,7 +45,9 @@ function App(props: any) {
 
     return (
         <div className={'App'}>
-            <UseState/>
+            <UseEffectExample/>
+
+            {/*<UseStateExample/>*/}
 
             {/*<Example1/>*/}
             {/*<ExampleUseMemo/>*/}
