@@ -3,7 +3,8 @@ import './App.css';
 import {SCountry} from "./components/Select/SelectCountry";
 import {SelectLetter} from "./components/Select/SelectLetter";
 import {Example1} from "./components/ReactMemo";
-import {ExampleUseMemo, LikeUseCallback} from "./components/UseMemo";
+import {ExampleUseMemo, LikeUseCallback} from "./components/UseMemoUseCallback";
+import UseState from "./components/UseState/UseState";
 
 
 function App(props: any) {
@@ -43,21 +44,23 @@ function App(props: any) {
 
     return (
         <div className={'App'}>
-            <Example1/>
-            <ExampleUseMemo/>
-            <LikeUseCallback/>
+            <UseState/>
+
+            {/*<Example1/>*/}
+            {/*<ExampleUseMemo/>*/}
+            {/*<LikeUseCallback/>*/}
             {/*<Select*/}
             {/*    // value={1}*/}
             {/*    setSelectValue={setSelectValue}*/}
             {/*    selectValue={selectValue}*/}
             {/*    items={items}*/}
             {/*/>*/}
-            <SLetter setSelectValue={setSelectLetter}
-                     selectValue={selectLetter}
-                     items={filteredItemsByLetter}/>
-            <SCountry setSelectValue={setSelectCountry}
-                      selectValue={selectCountry}
-                      items={filteredItemsByCountry}/>
+            {/*<SLetter setSelectValue={setSelectLetter}*/}
+            {/*         selectValue={selectLetter}*/}
+            {/*         items={filteredItemsByLetter}/>*/}
+            {/*<SCountry setSelectValue={setSelectCountry}*/}
+            {/*          selectValue={selectCountry}*/}
+            {/*          items={filteredItemsByCountry}/>*/}
             {/*<ControlledInput/>*/}
             {/*<ControlledCheckbox/>*/}
             {/*<ControlledSelect/>*/}

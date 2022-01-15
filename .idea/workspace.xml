@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce468f2-73de-4ef7-b25e-af4ca50657da" name="Changes" comment="select from Dimych">
-      <change afterPath="$PROJECT_DIR$/src/components/Select/SelectCountry.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/SelectLetter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UseMemo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UseState/UseState.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReactMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReactMemo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UseMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseMemoUseCallback.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +129,9 @@
       <workItem from="1640298312204" duration="3094000" />
       <workItem from="1640946884355" duration="6277000" />
       <workItem from="1641217942673" duration="11000" />
-      <workItem from="1641545136427" duration="4734000" />
+      <workItem from="1641545136427" duration="5480000" />
+      <workItem from="1642150228858" duration="675000" />
+      <workItem from="1642233211412" duration="1610000" />
     </task>
     <task id="LOCAL-00001" summary="select from Dimych">
       <created>1639502094264</created>
