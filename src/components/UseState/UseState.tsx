@@ -2,7 +2,7 @@ import React, {useMemo, useState} from 'react';
 
 let generateData = () => {
     console.log('generateData')
-    return 3284982732
+    return 1
 }
 
 const UseState = () => {
@@ -14,7 +14,7 @@ const UseState = () => {
 
     return (
         <>
-            <button onClick={() => setCounter(counter + 1)}>+</button>
+            <button onClick={() => setCounter(state => state + 1)}>+</button>
             {counter}
             <button onClick={() => setCounter(0)}>reset</button>
         </>
