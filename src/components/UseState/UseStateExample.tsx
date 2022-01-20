@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'; // 1
 
 let generateData = () => {
     console.log('generateData')

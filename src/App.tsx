@@ -5,7 +5,8 @@ import {SelectLetter} from "./components/Select/SelectLetter";
 import {Example1} from "./components/ReactMemo";
 import {ExampleUseMemo, LikeUseCallback} from "./components/UseMemoUseCallback";
 import UseStateExample from "./components/UseState/UseStateExample";
-import {UseEffectExample} from "./components/UseEffect/UseEffectExample";
+import {UseEffectExample, UseEffectSetTimeoutExample} from "./components/UseEffect/UseEffectExample";
+import {Clock} from "./components/Clock/Clock";
 
 
 function App(props: any) {
@@ -45,7 +46,9 @@ function App(props: any) {
 
     return (
         <div className={'App'}>
-            <UseEffectExample/>
+            {/*<UseEffectSetTimeoutExample/>*/}
+
+            <Clock/>
 
             {/*<UseStateExample/>*/}
 
