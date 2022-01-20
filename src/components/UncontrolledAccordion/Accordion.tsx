@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import classes from './Accordion.module.css'
+import classes from './Accordion.module.scss'
 
 type AccordionType = {
     titleValue: string

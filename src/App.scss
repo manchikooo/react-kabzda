@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("common/34891.jpg");
+    background-size: 300px 300px;
+}
+
+.App {
+    margin-top: auto;
+    text-align: center;
+}
+
+.selectBlock {
+    border: 1px black solid;
+    border-radius: 15px;;
+    padding: 5px;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+

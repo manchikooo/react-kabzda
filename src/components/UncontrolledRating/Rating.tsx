@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import classes from './Rating.module.css'
+import classes from './Rating.module.scss'
 
 type RatingPropsType = {
     // value: number

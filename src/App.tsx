@@ -1,5 +1,5 @@
 import React, {useMemo, useState} from 'react';
-import './App.css';
+import './App.scss';
 import {SCountry} from "./components/Select/SelectCountry";
 import {SelectLetter} from "./components/Select/SelectLetter";
 import {Example1} from "./components/ReactMemo";
